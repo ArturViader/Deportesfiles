@@ -105,6 +105,7 @@ public class DeportesFiles {
                         Metodos.cambiarnombrecurso();
                         break;
                     default:
+                        System.out.println("Opción incorrecta.");
                 }
             } catch (Exception ex) {
                 System.out.println("Error entrando opción del menú.");
